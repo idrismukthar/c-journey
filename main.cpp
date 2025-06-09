@@ -1,4 +1,5 @@
 #include <iostream>
+<<<<<<< HEAD
 #include <string>
 using namespace std;
 
@@ -73,5 +74,21 @@ int main() {
     cin >> name;
     cout << "Hello, " << name << "!\n";
 
+=======
+using namespace std;
+
+int main()
+{
+    cout << "Hello world \n\n";
+    cout << "My name is balogun \n";
+    cout << 5 << "\n";      // added \n
+    cout << 3 + 7 << "\n";  // added \n
+    cout << 5 * 10 << "\n"; // added \n
+    cout << 100 / 99 << "\n";
+    int a = 5;
+    int b = 7;
+    int sum = a + b;
+    cout << "Sum is: " << sum << "\n"; // added \n
+>>>>>>> a1d0d06234caa8911ef23cf907c507ec3e6b6703
     return 0;
 }
